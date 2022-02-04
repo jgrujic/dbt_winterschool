@@ -2,7 +2,7 @@
 ## Exercises Repository
 
 [![Open in
-Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jgrujic/dbt_audience_measurement.git)
+Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jgrujic/dbt_winterschool)
 
 This repository is hosting the exercises provided to students in the context of the `Relational DataBases` course of the Data Minded Academy.
 This specific excersise is focused on dbt.
