@@ -1,7 +1,7 @@
 #!/bin/bash  
   
 # Read the user input     
-echo "Enter the username. The user name is your <firstname>_<lastname>"  
+echo "Enter the username. The user name is your <firstname>"
 read user  
 schema=dbt_$user
 echo $user $schema

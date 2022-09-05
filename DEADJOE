@@ -1,0 +1,54 @@
+
+*** These modified files were found in JOE when it aborted on Tue Feb  8 14:05:56 2022
+*** JOE was aborted because the terminal closed
+
+*** File 'create_profile.sh'
+#!/bin/bash  
+  
+# Read the user input   
+  
+echo "Enter the username. The user name is your <firstname>_<lastname>"  
+read user  
+schema=dbt_$user
+echo $user $schema
+
+echo "Enter the password. Ask the instructor if you don't know what it is."
+read -s password 
+
+echo "audiance_measurment:
+  outputs:
+    dev:
+      account: yw41113.eu-west-1
+      database: WINTERSCHOOL
+      password: $password
+      role: accountadmin
+      schema: $schema
+      threads: 1
+      type: snowflake
+      user: $user
+      warehouse: COMPUTE_WH
+  target: dev" > proba.txt
+
+
+*** File '(Unnamed)'
+c.NotebookApp
+use_redirect_file
+
+*** File '(Unnamed)'
+known_hosts
+id_rsa.pub
+profile_backup
+create_profile.sh
+create_profile.sh
+create_profile.sh
+create_profile.sh
+proba.txt
+create_profile.sh
+proba.txt
+create_profile.sh
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc
