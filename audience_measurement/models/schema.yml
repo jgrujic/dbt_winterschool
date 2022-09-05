@@ -4,7 +4,7 @@ sources:
     - name: training
       description: 'Timestamps and Schedule tables used as source for our project'
       database: "{{ target.database }}"
-      schema: "{{ target.schema }}"
+      schema: PUBLIC
       tables:
        - name: timestamps
          description: 'Raw event data coming from the measuring boxes'

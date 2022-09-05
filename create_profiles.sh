@@ -25,7 +25,7 @@ echo "audience_measurement:
   outputs:
     dev:
       account: yw41113.eu-west-1
-      database: WINTERSCHOOL
+      database: ACADEMY_DBT
       password: $password
       role: student
       schema: $schema
